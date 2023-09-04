@@ -1,0 +1,71 @@
+/* External CSS for styling */
+
+/* Reset default styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation bar styles */
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #007BFF; /* Updated background color to blue */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 5px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#navbar a:hover {
+  background-color: #ffa704; /* Updated hover background color to orange */
+  color: white;
+}
+
+/* Section styles */
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  padding: 20px;
+  color: #333; /* Updated text color to a dark gray */
+  background-color: #F0F0F0; /* Updated background color to a light gray */
+}
+
+.section h1 {
+  font-size: 2.5rem; /* Increased font size for h1 */
+  color: #007BFF; /* Changed h1 text color to blue */
+}
+
+.section p {
+  font-size: 1.8rem; /* Increased font size for paragraphs */
+  max-width: 800px;
+  color: #555; /* Updated paragraph text color to a slightly darker gray */
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section ul li {
+  font-size: 1.5rem; /* Increased font size for list items */
+  margin: 10px 0;
+}
+
+/* Add more CSS for additional styling here */
